@@ -57,7 +57,7 @@ const App = () => {
           {todos.map(todo => (
             <div className="shadow-sm rounded px-4 py-3 mb-2 border d-flex">
               <input className="form-check-input me-1" type="checkbox" checked={todo.done} onChange={() => toggleTodo(todo.id)}></input>
-              <div className="d-flex flex-fill" key={todo.id}>{todo.title}<a href="#" className="ms-auto btn-close" aria-label="Delete" onClick={() => removeTodo(todo.id)}></a></div>
+              <div className="d-flex flex-fill" key={todo.id}>{todo.title}<a href="" className="ms-auto btn-close" aria-label="Delete" onClick={() => removeTodo(todo.id)}></a></div>
             </div>
           ))}
         </div>
