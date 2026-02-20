@@ -17,7 +17,7 @@ const App = () => {
   const addTodo = () => {
     // console.log("Adding a todo...");
     // console.log(title);
-    if (title === "" || title === null) return;
+    if (title.trim() === "" || title === null) return;
     const newTodo = { id: crypto.randomUUID(), title, done: false };
     setTitle("");
     setTodos([...todos, newTodo]);
