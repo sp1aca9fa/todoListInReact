@@ -30,8 +30,7 @@ A simple to-do list application built with React to manage tasks using component
 ```bash
 git clone https://github.com/sp1aca9fa/todoListInReact.git
 cd todoListInReact
-npm install
-npm start
+npx serve
 ```
 
 Open in your browser:
