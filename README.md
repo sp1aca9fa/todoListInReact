@@ -12,17 +12,21 @@ A simple to-do list application built with React to manage tasks using component
 
 ## Tech Stack
 
-- React
+- React 17 (via CDN)
+- Babel Standalone (in-browser JSX transpiler, via CDN)
+- Bootstrap 5
 - JavaScript (ES6+)
 - HTML5 & CSS3
 - JSX
 
 ## How It Works
 
-- The app is structured using React components
-- To-do items are stored in component state
+- React and Babel are loaded via CDN — no npm install or build step required
+- Babel transpiles JSX in the browser at runtime
+- The app is structured as a single React component (`App`)
+- To-do items are stored in component state using `useState`
 - The list is rendered dynamically using `.map()`
-- User interactions trigger state updates (e.g., adding/removing tasks)
+- User interactions (add, remove, toggle) trigger state updates
 - React re-renders the UI automatically when state changes
 
 ## Setup
